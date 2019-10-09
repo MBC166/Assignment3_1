@@ -5,27 +5,27 @@ import com.assignment3_1.Assignment3_1.ICalculator;
 
 public class SalImplementation implements ICalculator {
 	
-	ICalculator obj;
+	ICalculator obj ;
 	
 
-	public int computeTax(int income) {
+	public double computeTax(double income) {
 	
-		return obj.computeTax(income);
+		return 0;
 	}
 
-	public int weeklySalary(int Employee, int income) {
+	public double weeklySalary(Employee income) {
 	
-		return obj.weeklySalary(Employee, income);
+		return obj.weeklySalary(income);
 	}
 
-	public int fortnightSalary(int Employee, int income) {
+	public double fortnightSalary(Employee income) {
 	
-		return obj.fortnightSalary(Employee, income);
+		return obj.fortnightSalary(income);
 	}
 
-	public int computeKiwiSaver(int Employee, int income) {
+	public double computeKiwiSaver(Employee income) {
 	
-		return obj.computeKiwiSaver(Employee, income);
+		return obj.computeKiwiSaver(income);
 	}
 	public void setObj(ICalculator obj) {
 		this.obj =obj;
