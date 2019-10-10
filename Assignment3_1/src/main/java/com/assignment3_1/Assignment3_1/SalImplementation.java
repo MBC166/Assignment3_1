@@ -10,7 +10,7 @@ public class SalImplementation implements ICalculator {
 
 	public double computeTax(double income) {
 	
-		return 0;
+		return obj.computeTax(income);
 	}
 
 	public double weeklySalary(Employee income) {
